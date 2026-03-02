@@ -279,5 +279,41 @@ section {
   margin-top: 3px;
 }
 
+.ready{
+  background: none;
+  border: 1px solid black;
+  padding-top: 0px;
+  text-align: center;
+  justify-content: center;
+  
+  
+}
+
+.ready-inside{
+  border: 1px solid black;
+  height: 340px;
+  width: 1360px;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  background-color: #F7F7F2;
+}
+.ready-button{
+  margin: 24px 0 16px;
+  padding: 14px 24px;
+  background: #30B868;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.note {
+  font-size: 14px;
+  color: #627382;
+}
+
 
 
