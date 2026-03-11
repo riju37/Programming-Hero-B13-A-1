@@ -279,41 +279,116 @@ section {
   margin-top: 3px;
 }
 
-.ready{
-  background: none;
-  border: 1px solid black;
-  padding-top: 0px;
-  text-align: center;
-  justify-content: center;
-  
-  
+
+
+.early-access-section{
+  background:#ffffff;
+  padding:120px 20px;
+  display:flex;
+  justify-content:center;
 }
 
-.ready-inside{
-  border: 1px solid black;
-  height: 340px;
-  width: 1360px;
-  padding-top: 80px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 80px;
-  background-color: #F7F7F2;
-}
-.ready-button{
-  margin: 24px 0 16px;
-  padding: 14px 24px;
-  background: #30B868;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
+.early-access-container{
+  background:#f3f5f7;
+  max-width:1200px;
+  width:100%;
+  border-radius:14px;
+  text-align:center;
+  padding:80px 20px;
 }
 
-.note {
-  font-size: 14px;
-  color: #627382;
+.early-access-container h2{
+  font-size:42px;
+  font-weight:700;
+  color:#0b2a4a;
+  margin-bottom:16px;
+}
+
+.early-access-sub{
+  font-size:16px;
+  color:#6b7a90;
+  margin-bottom:30px;
+  line-height:1.6;
+}
+
+.early-access-btn{
+  background:#30b868;
+  color:white;
+  border:none;
+  padding:14px 28px;
+  font-size:16px;
+  font-weight:600;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.early-access-btn:hover{
+  background:#27ae60;
+}
+
+.early-access-note{
+  margin-top:18px;
+  font-size:14px;
+  color:#8a97a5;
 }
 
 
 
+.footer{
+  background:#06263c;
+  padding:60px 80px 30px;
+}
+
+.footer-container{
+  max-width:1200px;
+  margin:auto;
+}
+
+.footer-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.footer-logo img{
+  height:40px;
+}
+
+.footer-social{
+  text-align:right;
+}
+
+.footer-social p{
+  color:#c9d6e2;
+  font-size:16px;
+  margin-bottom:12px;
+}
+
+.social-icons{
+  display:flex;
+  gap:16px;
+  justify-content:flex-end;
+}
+
+.social-icons img{
+  width:22px;
+  height:22px;
+  opacity:0.9;
+  cursor:pointer;
+}
+
+.social-icons img:hover{
+  opacity:1;
+}
+
+.footer-line{
+  margin:40px 0 20px;
+  height:1px;
+  background:#27485f;
+}
+
+.footer-copy{
+  text-align:center;
+  color:#9fb3c3;
+  font-size:14px;
+}
